@@ -1,2 +1,2 @@
-include ':app', ':uilib'
+include ':app', ':mylibs'
 //':uilib'
