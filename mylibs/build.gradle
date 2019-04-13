@@ -54,7 +54,7 @@ dependencies {
     api 'com.airbnb.android:lottie:2.5.0'
     androidTestCompile 'com.android.support:support-annotations:27.1.0'
     api 'com.google.code.gson:gson:2.8.5'
-//    api 'com.android.support:multidex:1.0.1'
+    api 'com.android.support:multidex:1.0.2'
     api 'com.wdullaer:materialdatetimepicker:3.5.1'
     api 'com.ss.bannerslider:bannerslider:2.0.0'
     api 'com.github.jkwiecien:EasyImage:2.0.2'
