@@ -1,5 +1,3 @@
-# uilib-almuwahhid
-
 # HTTP Request
 Set your app manifest using this codes inside your <application>
 ```
