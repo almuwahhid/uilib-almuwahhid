@@ -1,6 +1,12 @@
 # uilib-almuwahhid
 
 # HTTP Request
+Set your app manifest using this codes inside your <application>
+```
+android:name="lib.almuwahhid.SuperUser.RequestHandler"
+```
+
+
 # Using POST Request
 ```
 UiLibRequest.POST(<your_address_here>, this, new UiLibRequest.OnPostRequest() {
