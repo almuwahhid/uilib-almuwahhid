@@ -11,6 +11,8 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim animation_toggle_in
+anim animation_toggle_out
 anim bounce_in
 anim bounce_out
 anim design_bottom_sheet_slide_in
@@ -328,15 +330,6 @@ attr showDividers
 attr showText
 attr showTitle
 attr singleChoiceItemLayout
-attr slider_animateIndicators
-attr slider_defaultBanner
-attr slider_emptyView
-attr slider_hideIndicators
-attr slider_indicatorSize
-attr slider_interval
-attr slider_loopSlides
-attr slider_selectedSlideIndicator
-attr slider_unselectedSlideIndicator
 attr spanCount
 attr spinBars
 attr spinnerDropDownItemStyle
@@ -582,8 +575,6 @@ color deep_purple_A100
 color deep_purple_A200
 color deep_purple_A400
 color deep_purple_A700
-color default_indicator_color_selected
-color default_indicator_color_unselected
 color design_bottom_navigation_shadow_color
 color design_error
 color design_fab_shadow_end_color
@@ -979,9 +970,6 @@ dimen compat_control_corner_material
 dimen customactivityoncrash_activity_horizontal_margin
 dimen customactivityoncrash_activity_vertical_margin
 dimen customactivityoncrash_error_activity_error_details_text_size
-dimen default_dash_indicator_width
-dimen default_indicator_margins
-dimen default_indicator_size
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_text_size
@@ -1078,7 +1066,6 @@ dimen margin_bigger
 dimen margin_medium
 dimen margin_small
 dimen margin_standard
-dimen max_slider_indicator_size
 dimen mdtp_ampm_label_size
 dimen mdtp_ampm_left_padding
 dimen mdtp_date_picker_component_width
@@ -1144,7 +1131,6 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
-dimen round_square_indicator_radius
 dimen text_default
 dimen text_small
 dimen text_title
@@ -1260,14 +1246,6 @@ drawable gallery
 drawable ic_android_black_24dp
 drawable ic_drag_handle_black_24dp
 drawable ic_notifications_black_24dp
-drawable indicator_circle_selected
-drawable indicator_circle_unselected
-drawable indicator_dash_selected
-drawable indicator_dash_unselected
-drawable indicator_round_square_selected
-drawable indicator_round_square_unselected
-drawable indicator_square_selected
-drawable indicator_square_unselected
 drawable mdtp_done_background_color
 drawable mdtp_done_background_color_dark
 drawable mdtp_material_button_background
@@ -1557,7 +1535,6 @@ layout design_text_input_password_icon
 layout dialog_alert
 layout dialog_loading_default
 layout dialog_pick_image
-layout item_slide_image
 layout mdtp_date_picker_dialog
 layout mdtp_date_picker_dialog_v2
 layout mdtp_date_picker_header_view
@@ -1625,7 +1602,6 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_pattern
@@ -2198,7 +2174,6 @@ styleable RecyclerView android_descendantFocusability android_orientation fastSc
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_imeOptions android_inputType android_maxWidth closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
-styleable Slider slider_animateIndicators slider_defaultBanner slider_emptyView slider_hideIndicators slider_indicatorSize slider_interval slider_loopSlides slider_selectedSlideIndicator slider_unselectedSlideIndicator
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_dropDownWidth android_entries android_popupBackground android_prompt popupTheme
 styleable SwitchCompat android_textOff android_textOn android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
